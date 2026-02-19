@@ -1,42 +1,50 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #0682a1d2;
+    border-radius: 5px;
+    background-color: #0ab8ecbb;
+    text-align: center;
+    margin-left: 450px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.form{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.name{
+  font-size: 17px;
+  font-weight: bold;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.mail{
+  font-size: 17px;
+  font-weight: bold;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pass{
+  font-size: 17px;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.name2{
+  margin-left: 18px;
+  border: 1px solid black;
+  padding: 5px 5px;
 }
-
-.card {
-  padding: 2em;
+.mail2{
+  margin-left: 20px;
+  border: 1px solid black;
+  padding: 5px 5px;
 }
-
-.read-the-docs {
-  color: #888;
+.pass2{
+  margin-left: 12px;
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+.reg{
+  background-color: #08530b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
